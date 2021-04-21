@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <!--Links to css-->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./neu.css" />
+    <link rel="stylesheet" href="./glass.css" />
+  </head>
+  <body>
+    <!-- modify this form HTML and place wherever you want your form -->
+
+    <form id="form" action="https://formspree.io/f/mbjqlpgn" method="POST">
+      <!--Header-->
+      <h1 class="heading">Contact Form</h1>
+      <!--Name-->
+      <div class="contact-groups">
+        <label class="contact-lables" for="name">Name</label>
+        <input
+          class="contact-inputs"
+          type="text"
+          id="name"
+          placeholder="Enter Fullname"
+          name="name"
+          required
+        />
+      </div>
+      <!--Email-->
+      <div class="contact-groups">
+        <label class="contact-lables" for="email">Email</label>
+        <input
+          class="contact-inputs"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter Email Here"
+          required
+        />
+      </div>
+      <!--Phone Number-->
+      <div class="contact-groups">
+        <label class="contact-lables" for="number">Contact Number</label>
+        <input
+          class="contact-inputs"
+          type="tel"
+          name="number"
+          id="number"
+          placeholder="Enter Phone Number"
+          required
+        />
+      </div>
+      <!--Text Area-->
+      <div class="contact-groups">
+        <label class="contact-lables">Your message:</label>
+        <textarea
+          class="contact-inputs"
+          name="message"
+          placeholder="Message us here"
+        ></textarea>
+      </div>
+      <!-- Button-->
+      <div class="contact-groups">
+        <button class="button" type="submit">Send</button>
+      </div>
+    </form>
+  </body>
+</html>
