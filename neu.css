@@ -46,14 +46,26 @@ body {
   border-radius: 30px;
   padding: 5% 10%;
   font-size: 20px;
+  color: white;
 }
 
 .contact-inputs::placeholder {
-  padding: 5%;
   color: white;
-  background-color: #2b7672;
-  outline: none;
-  border-radius: 30px;
+}
+
+.contact-inputs:hover {
+  background: #12504d;
+  color: black;
+}
+.heading:hover {
+  color: #12504d;
+}
+.contact-inputs:focus {
+  background: #12504d;
+}
+
+.contact-inputs::placeholder:hover {
+  color: black;
 }
 
 .button {
