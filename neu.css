@@ -89,12 +89,8 @@ body {
   text-shadow: 0px 0px 2px #fdfdfd;
   font-size: 10px;
 }
-.text-area{
+textArea{
   height: 90px;
-}
-
-.text-area::placeholder{
-  position: absolute;
 }
 .contact-inputs:hover {
   background: #12504d;
