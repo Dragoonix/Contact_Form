@@ -17,6 +17,12 @@ body {
   padding: 20px;
   font-size: 18px;
 }
+/* i{
+  position: absolute;
+  top:0;
+  left:0;
+} */
+
 /* -------------FORM */
 #form {
   background: linear-gradient(145deg, #53c9c3, #154443);
@@ -73,6 +79,7 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 5px;
+  position: relative;
 }
 .contact-inputs {
   outline: none;
@@ -83,6 +90,7 @@ body {
   padding: 5px 10px;
   color: white;
   transition: color 0.6s linear;
+ 
 }
 .contact-inputs::placeholder {
   color: white;
@@ -91,6 +99,7 @@ body {
 }
 textArea{
   height: 90px;
+  
 }
 .contact-inputs:hover {
   background: #12504d;
